@@ -1,0 +1,110 @@
+/* CSS RESPONSIVE */
+
+/* Ecran 600px */
+@media (max-width: 600px) {
+
+  /* NAVIGATION */
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+    gap: 0.8rem;
+    margin-top: 1rem;
+  }
+
+  .nav-links a {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 0.5rem 0;
+  }
+
+  /* HERO */
+  .hero {
+    padding: 2rem 1rem;
+    height: auto;
+  }
+
+  .hero-content h2 {
+    font-size: 1.8rem;
+  }
+
+  .hero-content h3 {
+    font-size: 1rem;
+  }
+
+  .btn {
+    padding: 0.6rem 1rem;
+  }
+
+  /* ABOUT */
+  .about {
+    padding: 3rem 1.5rem;
+  }
+
+  .about p {
+    font-size: 0.95rem;
+  }
+
+  /* PROJECTS */
+  .projects {
+    padding: 3rem 1.5rem;
+  }
+
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-card img {
+    height: 180px;
+  }
+
+  /* CONTACT */
+  form {
+    width: 100%;
+    padding: 0 1rem;
+  }
+
+  input, textarea {
+    font-size: 0.9rem;
+  }
+
+  button {
+    font-size: 0.9rem;
+  }
+}
+
+/* Ecran 900px */
+@media (max-width: 900px) {
+  .nav-links {
+    gap: 1rem;
+  }
+
+  .hero-content h2 {
+    font-size: 2rem;
+  }
+
+  .hero-content h3 {
+    font-size: 1.1rem;
+  }
+
+  .project-grid {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  }
+}
+
+/* Ecran 1200px */
+@media (min-width: 1200px) {
+  .hero-content h2 {
+    font-size: 3rem;
+  }
+
+  .project-card img {
+    height: 250px;
+  }
+}
