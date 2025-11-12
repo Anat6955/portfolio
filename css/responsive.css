@@ -1,9 +1,7 @@
-/* CSS RESPONSIVE */
-
 /* Ecran 600px */
 @media (max-width: 600px) {
 
-  /* NAVIGATION */
+  /* navigation */
 
   .navbar {
     flex-direction: column;
@@ -24,7 +22,7 @@
     padding: 0.5rem 0;
   }
 
-  /* HERO */
+  /* hero */
   .hero {
     padding: 2rem 1rem;
     height: auto;
@@ -42,7 +40,7 @@
     padding: 0.6rem 1rem;
   }
 
-  /* ABOUT */
+  /* a propos */
   .about {
     padding: 3rem 1.5rem;
   }
@@ -51,7 +49,7 @@
     font-size: 0.95rem;
   }
 
-  /* PROJECTS */
+  /* projets */
   .projects {
     padding: 3rem 1.5rem;
   }
@@ -64,7 +62,7 @@
     height: 180px;
   }
 
-  /* CONTACT */
+  /* contact */
   form {
     width: 100%;
     padding: 0 1rem;

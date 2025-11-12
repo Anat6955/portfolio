@@ -1,4 +1,3 @@
-/* STYLE GÉNÉRAL */
 * {
   margin: 0;
   padding: 0;
@@ -21,7 +20,7 @@ h2 {
   margin-bottom: 1rem;
 }
 
-/* NAVBAR */
+/* navibar */
 header {
   background: #111;
   color: #fff;
@@ -62,7 +61,7 @@ header {
   color: #00bcd4;
 }
 
-/* HERO */
+/* hero */
 .hero {
   height: 100vh;
   display: flex;
@@ -71,6 +70,11 @@ header {
   background: linear-gradient(135deg, #00bcd4, #0097a7);
   color: white;
   text-align: center;
+}
+
+.hero img{
+  height: 200px;
+  clip-path: ellipse(33% 50%);
 }
 
 .hero-content h2 {
@@ -95,7 +99,7 @@ header {
   transform: translateY(-3px);
 }
 
-/* À PROPOS */
+/*a propos */
 .about {
   padding: 4rem 2rem;
   background: #fff;
@@ -108,7 +112,7 @@ header {
   line-height: 1.6;
 }
 
-/* PROJETS */
+/* projets */
 .projects {
   background: #f4f4f4;
   padding: 4rem 2rem;
@@ -150,7 +154,7 @@ header {
   color: #555;
 }
 
-/* CONTACT */
+/* contact */
 .contact {
   padding: 4rem 2rem;
   text-align: center;
@@ -186,7 +190,7 @@ button:hover {
   background: #00bcd4;
 }
 
-/* FOOTER */
+/* footer */
 footer {
   background: #111;
   color: #fff;
