@@ -72,9 +72,11 @@ header {
   text-align: center;
 }
 
-.hero img{
+.hero img {
   height: 200px;
-  clip-path: ellipse(33% 50%);
+  width: auto;
+  clip-path: ellipse(33% 50% at 50% 50%);
+  object-fit: cover;
 }
 
 .hero-content h2 {
