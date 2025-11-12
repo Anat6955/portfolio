@@ -9,6 +9,9 @@ body {
   font-family: "Poppins", sans-serif;
   color: #222;
   background-color: #f9f9f9;
+}
+
+html{
   scroll-behavior: smooth;
 }
 
@@ -89,6 +92,7 @@ header {
 .btn:hover {
   background: #00bcd4;
   color: #fff;
+  transform: translateY(-3px);
 }
 
 /* À PROPOS */
